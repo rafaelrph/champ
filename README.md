@@ -37,8 +37,9 @@ JS files are organised in classes using OOP and MVC concepts.
 If the project was bigger, the classes (Service, Model, View and Controller) would become generic classes, leaving just generic functions and being extended by other specific classes.
 
 # Design
-
 I spent some time trying to organise well the data. I love soccer, so I'm an user of this kind of website. I really liked to develop everything. I hope you like that.
 
 PS. Sorry... The design isn't responsive. I know how to develop a web responsive page but I didn't do because you said that the focus isn't the design. 
 
+# Problem?
+I created the Top Scorers page. That isn't equals of the real data. The logic of extract information is ok. I think there's a problem with the data of goals. Some goals are scored by a player, but the API has different data for the same player. Example: Robert Lewandowski and Lewandowski, Robert.
