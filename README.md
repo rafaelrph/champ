@@ -22,3 +22,16 @@ I didn't use any JS framework because I want to show my develop skills. The proj
 I prefered to use JSON because it's really commom, has lots of resources and function on JS.
 
 I know that on a production enrironment, we have to take care of security, build a more robust architecture, use frameworks, etc... As I said, I just want to show my skills, keep the project simple and well organised.
+
+# Workflow
+JS files are organised in classes using OOP and MVC concepts.
+
+1. Get data from the API: created the "Service" class which connects and get data from the API. This class has: generic functions to connect to an API; API parameters (url, paths, ids, etc.); specific functions (get results, get teams, etc.)
+
+2. Organise data: created the "Model" class which extract information from data. This class has functions which receive data from the Service class and provide the final information that is showed on the website.
+
+3. Show the information: created the "View" class which inserts, the generated information from Model class, on the website (user interface).
+
+4. Create a controller: created the "Controller" class which controls the features.
+
+If the project was bigger, the classes (Service, Model, View and Controller) would become generic classes, leaving just generic functions. These classes would be extended by other specific classes.
