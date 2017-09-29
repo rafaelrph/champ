@@ -42,4 +42,4 @@ I spent some time trying to organise well the data. I love soccer, so I'm an use
 PS. Sorry... The design isn't responsive. I know how to develop a web responsive page but I didn't do because you said that the focus isn't the design. 
 
 # Problem?
-I created the Top Scorers page. That isn't equals of the real data. The logic of extract information is ok. I think there's a problem with the data of goals. Some goals are scored by a player, but the API has different data for the same player. Example: Robert Lewandowski and Lewandowski, Robert.
+I created the Top Scorers page. That isn't the same of the real information (checked on the official website of Bundesliga). The logic of extract information is ok but I think there's a problem with the data of goals on the API. Some goals are scored by a player, but the API has different data for the same player. Example: Robert Lewandowski and Lewandowski, Robert; Aubameyang and Pierre-Emerick Aubameyang; etc.
