@@ -35,3 +35,9 @@ JS files are organised in classes using OOP and MVC concepts.
 4. Create a controller: created the "Controller" class which controls the features.
 
 If the project was bigger, the classes (Service, Model, View and Controller) would become generic classes, leaving just generic functions. These classes would be extended by other specific classes.
+
+# Design
+
+I spent some time trying to organise well the data. I love soccer, so I'm an user of this kind of website. I really liked to develop everything.
+
+PS. sorry... The design isn't responsive. I know how to develop a web responsive page but I didn't do because you said that the focus isn't the design. 
