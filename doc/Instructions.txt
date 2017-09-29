@@ -1,0 +1,27 @@
+Interview test
+
+As an enduser I want to have a small website, which displays various data
+of Bundesliga games using the JSON/XML API http://www.openligadb.de/
+(see documentation.md).
+
+Provide the following Information:
+
+- Next upcoming matches (following Gameday)
+- All matches of the actual season
+- Win/Loss Ratio of the actual season of each team
+
+Bonus-Points:
+
+- Automated deployment script with fabric/ansible or the like.
+   If you do so, deployment Target should be a local Vagrantbox.
+
+Please describe why you choose which technology (Framework, Language, SOAP/JSON), and provide a description of your Workflow to solve this problem.
+
+A link to a repository with a small Readme.md for setup is needed.
+
+You may use a persistence layer of your choice if you feel the need to
+(mongoDB, mySQL p.e)
+
+The actual Design of the Site is totally up to you, functionality and
+proper design of the Backend should be your focus. Nice Web-Frontend is a
+bonus but not a must.
